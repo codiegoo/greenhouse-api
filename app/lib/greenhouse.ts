@@ -30,7 +30,7 @@ export const greenhouse: GreenhouseState = {
   config: {
     targetTemperature: 24,
     targetHumidity: 85,
-    autoMode: true
+    autoMode: false
   },
   actuators: {
     curtain1: false,
