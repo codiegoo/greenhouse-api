@@ -104,7 +104,7 @@ export default function Dashboard() {
 
       {/* Actuadores */}
       <div className="space-y-2">
-        <h2 className="font-semibold">Controles</h2>
+        <h2 className="font-semibold">Controles manuales</h2>
 
         {Object.keys(data.actuators).map((key) => (
           <button
