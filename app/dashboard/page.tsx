@@ -112,7 +112,7 @@ export default function Dashboard() {
             onClick={() => toggleActuator(key)}
             className="block bg-blue-600 px-4 py-2 rounded"
           >
-            {key}: {data.actuators[key] ? "ON" : "OFF"}
+            {key}: {data.actuators[key] ? "On" : "Off"}
           </button>
         ))}
       </div>
