@@ -35,9 +35,9 @@ export const greenhouse: GreenhouseState = {
   actuators: {
     curtain1: false,
     curtain2: false,
-    pump: true,
-    fans: true,
-    humidifier: true,
-    led: true
+    pump: false,
+    fans: false,
+    humidifier: false,
+    led: false
   }
 }
